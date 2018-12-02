@@ -9,7 +9,7 @@ Build instructions
 ------------------
 
 ```bash
-$ cargo install +nightly wasm-pack --force
+$ cargo +nightly install wasm-pack --force
 $ wasm-pack init
 $ # Now grab the files you need from pkg/ and move them where you want them.
 ```

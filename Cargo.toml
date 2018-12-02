@@ -12,7 +12,8 @@ crate-type = ["cdylib"]
 [dependencies]
 rustc-demangle = "0.1.9"
 cpp_demangle = "0.2.12"
-wasm-bindgen = "0.2.17"
+msvc-demangler = "0.7.0"
+wasm-bindgen = "0.2.28"
 
 [profile.release]
 lto = true
