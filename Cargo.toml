@@ -1,8 +1,8 @@
 [package]
 name = "gecko-profiler-demangle"
-version = "0.1.0"
+version = "0.3.0"
 authors = ["Markus Stange <mstange@themasta.com>"]
-description = "Contains wrapper function for C++ and rust name demangling, which is intended to be used through WASM in perf.html."
+description = "Contains wrapper function for C++ and rust name demangling, which is intended to be used through WASM in the Firefox profiler."
 repository = "https://github.com/mstange/gecko-profiler-demangle"
 license = "Apache-2.0 OR MIT"
 

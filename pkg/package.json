@@ -3,19 +3,21 @@
   "collaborators": [
     "Markus Stange <mstange@themasta.com>"
   ],
-  "description": "Contains wrapper function for C++ and rust name demangling, which is intended to be used through WASM in perf.html.",
-  "version": "0.2.0",
+  "description": "Contains wrapper function for C++ and rust name demangling, which is intended to be used through WASM in the Firefox profiler.",
+  "version": "0.3.0",
   "license": "Apache-2.0 OR MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/mstange/gecko-profiler-demangle"
   },
   "files": [
-    "gecko_profiler_demangle_bg.wasm",
-    "gecko_profiler_demangle.js",
-    "gecko_profiler_demangle.d.ts"
+    "index_bg.wasm",
+    "index.js",
+    "index.d.ts",
+    "LICENSE-APACHE",
+    "LICENSE-MIT"
   ],
-  "module": "gecko_profiler_demangle.js",
-  "types": "gecko_profiler_demangle.d.ts",
-  "sideEffects": "false"
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false
 }

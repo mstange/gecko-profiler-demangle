@@ -10,7 +10,7 @@ Build instructions
 
 ```bash
 $ cargo +nightly install wasm-pack --force
-$ wasm-pack init
+$ wasm-pack build --out-name index
 $ # Now grab the files you need from pkg/ and move them where you want them.
 ```
 
