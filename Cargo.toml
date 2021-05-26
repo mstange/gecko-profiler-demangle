@@ -10,10 +10,10 @@ license = "Apache-2.0 OR MIT"
 crate-type = ["cdylib"]
 
 [dependencies]
-rustc-demangle = "0.1.9"
-cpp_demangle = "0.2.12"
-msvc-demangler = "0.7.0"
-wasm-bindgen = "0.2.28"
+rustc-demangle = "0.1.19"
+cpp_demangle = "0.3.2"
+msvc-demangler = "0.8.0"
+wasm-bindgen = "0.2.74"
 
 [profile.release]
 lto = true
