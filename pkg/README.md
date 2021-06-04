@@ -44,4 +44,5 @@ To publish a new version of this module on npm, do the following:
 
  1. Update the version number in `Cargo.toml`. The same version will be used for the npm package.
  2. Manually edit `pkg/package.json` to add a `"main": "index.js",` entry, see [this comment](https://github.com/mstange/gecko-profiler-demangle/issues/1#issuecomment-849023815) for background.
- 3. Run `wasm-pack publish`.
+ 3. Manually edit `pkg/package.json` to add an `"index_bg.js",` entry to the `"files"` list, see [this comment](https://github.com/mstange/gecko-profiler-demangle/issues/2#issuecomment-854959688) for background.
+ 4. Run `wasm-pack publish`.
