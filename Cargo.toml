@@ -1,6 +1,6 @@
 [package]
 name = "gecko-profiler-demangle"
-version = "0.3.3"
+version = "0.4.0"
 authors = ["Markus Stange <mstange@themasta.com>"]
 description = "Contains wrapper function for C++ and rust name demangling, which is intended to be used through WASM in the Firefox profiler."
 repository = "https://github.com/mstange/gecko-profiler-demangle"
@@ -11,8 +11,8 @@ crate-type = ["cdylib"]
 
 [dependencies]
 rustc-demangle = "0.1.19"
-cpp_demangle = "0.3.2"
-msvc-demangler = "0.8.0"
+cpp_demangle = "0.4"
+msvc-demangler = "0.11"
 wasm-bindgen = "0.2.74"
 
 [profile.release]
