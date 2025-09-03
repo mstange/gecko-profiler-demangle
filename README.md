@@ -32,7 +32,7 @@ Build instructions
 To rebuild this npm module from the original Rust code, clone [the repo](https://github.com/mstange/gecko-profiler-demangle/) and proceed as follows:
 
 ```bash
-$ cargo +nightly install wasm-pack --force
+$ cargo install wasm-pack --force
 $ wasm-pack build --out-name index
 $ # Now grab the files you need from pkg/ and move them where you want them.
 ```
